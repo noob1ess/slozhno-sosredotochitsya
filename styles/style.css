@@ -208,12 +208,12 @@
   position: relative;
   align-content: center;
   min-block-size: 668px;
+  place-items: center;
 }
 
 .footer__title {
   color: var(--h1-color);
   font-size: var(--page-title-size);
-  text-align: center;
   text-shadow: 2px 2px var(--h1-shadow);
 }
 
