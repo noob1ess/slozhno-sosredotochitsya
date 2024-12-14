@@ -1,8 +1,8 @@
-/* Основные стили проекта. 
+/* Основные стили проекта.
 Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. 
+  /* сохраните в разметке и стилях класс page.
   На его основе работает скрипт. */
   font-family: var(--font-family), sans-serif;
   background-color: var(--page-bg);
@@ -27,7 +27,7 @@
 }
 
 .decorated-zone::before {
-  content: "";
+  content: '';
   position: absolute;
   border-top: 1px var(--decor-color) solid;
   border-right: 1px var(--decor-color) solid;
@@ -38,7 +38,7 @@
 }
 
 .decorated-zone::after {
-  content: "";
+  content: '';
   position: absolute;
   border-bottom: 1px var(--decor-color) solid;
   border-left: 1px var(--decor-color) solid;
@@ -58,7 +58,7 @@
 }
 
 .header__rec-decorated::before {
-  content: "REC";
+  content: 'REC';
   color: var(--rec-color);
   font-family: inherit;
   font-size: var(--other-text-size);
@@ -66,9 +66,9 @@
 }
 
 .header__rec-decorated::after {
-  content: "";
+  content: '';
   border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px var(--rec-color);
+  box-shadow: 0 0 4px 2px var(--rec-color);
   background-color: var(--rec-color);
   inline-size: 9px;
   block-size: 9px;
@@ -218,6 +218,7 @@
 }
 
 @media (width >= 768px) {
+
   .page {
     --page-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     inline-size: 768px;
@@ -311,6 +312,7 @@
 }
 
 @media (width >= 1024px) {
+
   .page {
     inline-size: 1024px;
   }
