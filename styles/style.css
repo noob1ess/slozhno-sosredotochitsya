@@ -206,9 +206,10 @@
 
 .footer {
   position: relative;
-  align-content: center;
   min-block-size: 668px;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__title {
