@@ -26,7 +26,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {  
+  :root { 
     --page-bg: rgba(255, 241, 247);
     --bg-image: url(../images/cover-image-light.png);
     --rec-color: transparent;
